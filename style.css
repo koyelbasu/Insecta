@@ -1,0 +1,289 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    width:100%;
+    height:100vh;
+    overflow-x:hidden;
+}
+
+.container{
+    display:flex;
+    min-height: 100vh;
+    position: relative;
+}
+
+.left{
+    width: 50%;
+    background: rgb(255, 248, 244);
+    padding: 40px 60px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 27px;
+    font-weight: 700;
+    color: rgb(11, 59, 0);
+    margin-left: 1px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    margin-bottom: 620px;
+    margin-left: 10px;
+    padding: 0px 20px;
+    width: 320px;
+    height:35px;background: white;
+    box-shadow:0 5px 20px rgb(212, 183, 183);
+    border-radius: 25px;
+}
+
+.search i{
+    display:flex;
+    justify-content: center;
+    
+}
+
+.search input{
+    background: transparent;
+    border-color: transparent;
+    border-radius: 25px;
+    font:25px;
+    
+}
+
+.vert{
+    position: absolute;
+    margin-right:336px;
+    top: 35%;
+    transform: rotate(-90deg)translateY(-50%);
+    font-size: 85px;
+    left:-110px;
+    color: rgb(1, 40, 1);
+    margin-top: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.info{
+    margin-top: 120px;
+   
+}
+
+.box{
+    margin-bottom: 35px;
+    border-bottom: 2px solid rgb(255, 188, 188); 
+    margin-right:945px;
+   position: relative;
+    left:-50px;
+    
+}
+
+.box p{
+    padding: 18px;
+    
+}
+
+.order{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    
+}
+
+.indicator{
+    background-color: #cf2027;
+    border-radius: 50%;
+    width:8px;
+    height:8px;
+    margin-right: 1vw;
+}
+
+.right{
+  width: 50%;
+  background: #bc3329;
+  color: white;
+  padding: 40px 70px;
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+nav a{
+  text-decoration: none;
+   color: white;
+  font-size: 15px;
+}
+
+nav a:hover{
+    background: white;
+    color:rgb(222, 3, 3);
+    border-radius: 25px;
+    padding: 0px 6px;
+}
+
+.contain{
+   position: relative;
+   margin-top: 40px;
+    font-weight: 600;
+    font-size: 35px;
+    font-family: sans-serif;
+    left:105px
+}
+
+.bug{
+    margin-bottom: 426px;
+    margin-left: 126px;
+    display: flex;
+}
+
+.bug img{
+    font-size: 0px;
+    position:relative;
+    margin-top:30px;
+    left:4px;
+    width:70px;
+    height: 120px;
+}
+
+
+
+.local{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left:50px;
+}
+
+.local i{
+    font-size: 35px;
+}
+
+.gender{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-left:30px;
+}
+
+.gender i{
+    font-size: 35px;
+}
+
+.size{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-left:70px;
+}
+
+.size i{
+    font-size: 35px;
+}
+
+.char{
+    color: rgb(251, 182, 182)
+}
+
+.toggle_switch{
+    width: 4vw;
+    height:4vh;
+    border-radius: 2vw;
+    border: none;
+    background: #ff676c;
+    position: relative;
+}
+
+.toggle_buton{
+    width:4vh;
+    height:4vh;
+    background-color: rgb(254, 213, 143);
+    border-radius: 50%;
+}
+
+.toggle_option{
+    display: flex;
+    align-items: center;
+    margin-left: 140px;
+    flex-direction: column;
+    margin-top: 0px;
+}
+
+.toggle_option h4{
+    margin-left:15px ;
+}
+
+.price{
+    font-size: 59px;
+    color: rgb(255, 212, 212);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    left:950px;
+}
+
+.char{
+    font-size: 15px;
+}
+
+.first{
+    display: flex;
+    margin-top: 280px;
+    left: 950px;
+    position:absolute;
+}
+
+.second{
+    display: flex;
+    margin-top: 315px;
+    position: absolute;
+    left:950px;
+}
+
+.collection{
+    background-color: rgb(225, 183, 75);
+    color: black;
+    position: absolute;
+    margin-top: 370px;
+    width:155px;
+    height: 6vh;
+    padding: 12px 16px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.collection:hover{
+    background-color: beige;
+    color:goldenrod;
+}
+
+.main{
+  height: 105%;
+  left: 755px;
+  position: absolute;
+  top: 45%;
+  transform: translate(-50%, -50%);
+
+}
+
+.divide{
+  position: absolute;
+  background-color: #E2C299;
+  height: 80%;
+  width: 1px;
+  margin-top: 200px;
+  left:950px;
+}
